@@ -33,3 +33,19 @@ dist-ssr
 .env.development.local
 .env.test.local
 .env.production.local
+
+# Large files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.mp4
+*.mov
+*.avi
+*.wmv
+*.pdf
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
