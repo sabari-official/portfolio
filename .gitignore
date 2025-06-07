@@ -49,3 +49,19 @@ dist-ssr
 *.7z
 *.tar
 *.gz
+
+# Database files
+data/
+*.wt
+*.lock
+*.turtle
+*.bson
+*WiredTiger*
+*_mdb_catalog*
+*collection-*
+*index-*
+*diagnostic.data/
+*metrics.*
+*sizeStorer*
+*storage.bson
+*mongod.lock
