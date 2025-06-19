@@ -24,9 +24,6 @@ dist-ssr
 *.sln
 *.sw?
 
-# Vercel
-.vercel
-
 # Environment variables
 .env
 .env.local

@@ -246,11 +246,7 @@ export default function Background() {
           left: '50%',
           top: '50%',
           marginLeft: '-400px',
-          marginTop: '-400px',
-          '@media (min-width: 768px)': {
-            marginLeft: '-600px',
-            marginTop: '-600px',
-          }
+          marginTop: '-400px'
         }}
       />
 
