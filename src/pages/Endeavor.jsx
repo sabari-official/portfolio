@@ -4,36 +4,32 @@ import { useInView } from 'react-intersection-observer';
 export default function Endeavor() {
   const projects = [
     {
-      title: "AI based Resume Parser",
-      description: "An intelligent resume parsing system that uses advanced NLP and machine learning to extract and analyze key information from resumes, streamlining the recruitment process with high accuracy.",
-      image: "/resume_parser.png",
-      technologies: ["Python", "TensorFlow", "NLP", "Flask", "React", "MongoDB"],
-      github: "#",
-      live: "#"
-    },
-    {
       title: "Interactive Welcome Robot",
       description: "An innovative campus welcome robot project that uses computer vision and natural language processing to interact with visitors, provide information, and enhance the campus experience.",
       image: "/welcome_robot.jpeg",
       technologies: ["Python", "OpenCV", "TensorFlow", "ROS", "Computer Vision", "NLP"],
-      github: "#",
-      live: "#"
+      github: "#"
+    },
+    {
+      title: "Maze Challenge using Eye Tracking",
+      description: "The Maze Challenge using Eye Movements and actions to track then acts the game controller, that uses computer vision and Game Developement to give Interactive Experience.",
+      image: "/mage.jpeg",
+      technologies: ["Python", "OpenCV", "TensorFlow", "MediaPipe", "Computer Vision", "PyGame"],
+      github: "https://github.com/sabari-official/Eye-Maze-Challenge.git",
     },
     {
       title: "Real-time Data Analysis Platform",
       description: "A comprehensive data analysis platform that processes and visualizes real-time data streams, providing actionable insights and interactive dashboards for decision-making.",
       image: "/data_analysis.jpeg",
       technologies: ["Python", "Apache Kafka", "Streamlit", "Pandas", "Plotly", "Docker"],
-      github: "#",
-      live: "#"
+      github: "#"
     },
     {
       title: "Personal AI Assistant",
       description: "A custom AI agent built with N8N that automates personal tasks, manages workflows, and provides intelligent assistance for daily activities and productivity enhancement.",
       image: "/personal_ai.png",
       technologies: ["N8N", "JavaScript", "Node.js", "API Integration", "Automation", "AI/ML"],
-      github: "#",
-      live: "#"
+      github: "#"
     }
   ];
 
@@ -120,16 +116,6 @@ export default function Endeavor() {
                     className="text-lg tracking-wide text-[#F8F9FA] hover:text-[#00B4D8] transition-colors duration-300"
                   >
                     GitHub
-                  </motion.a>
-                  <motion.a
-                    href={project.live}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.95 }}
-                    className="text-lg tracking-wide text-[#F8F9FA] hover:text-[#00B4D8] transition-colors duration-300"
-                  >
-                    Live Demo
                   </motion.a>
                 </div>
               </div>
