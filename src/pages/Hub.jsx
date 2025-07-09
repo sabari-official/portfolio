@@ -172,7 +172,7 @@ export default function Hub() {
             className="mb-8 md:mb-0 md:mr-12"
           >
             <motion.img
-              src="/profile1.jpg"
+              src="/profile.jpg"
               alt="Your Profile"
               className="w-40 h-40 md:w-96 md:h-96 rounded-full object-cover border-4 border-[#4ECDC4] shadow-lg hover:shadow-[#4ECDC4]/50 transition-all duration-300"
               whileHover={{ scale: 1.05, rotate: 5 }}
